@@ -3,7 +3,7 @@
 .POSIX:
 
 include config.mk
-
+PREFIX=/usr/local
 SRC = st.c x.c
 OBJ = $(SRC:.c=.o)
 
